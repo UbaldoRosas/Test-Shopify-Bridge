@@ -1,0 +1,95 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        },
+        "83bc0e00-a7fc-427c-b6c3-305a7433335e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab 2",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "a0b8af7b-bd06-460d-b5aa-195917d7101c": {
+          "type": "popup",
+          "settings": {
+            "link_label": "Pop-up link text",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "description",
+        "share",
+        "83bc0e00-a7fc-427c-b6c3-305a7433335e",
+        "a0b8af7b-bd06-460d-b5aa-195917d7101c"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
+    },
+    "162570467011f62029": {
+      "type": "contact-form",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "162570467011f62029"
+  ]
+}
